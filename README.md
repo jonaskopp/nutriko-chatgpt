@@ -3,7 +3,7 @@
 Tržiště pluginů s jediným pluginem **Nutriko**. Plugin připojí ChatGPT (režim Chat/Work
 i Codex v aplikaci ChatGPT na počítači) k vašemu účtu v [Nutriku](https://nutriko.cz).
 
-V repozitáři nejsou žádná data ani přístupové údaje — jen odkaz na server Nutrika
+V repozitáři nejsou žádná data ani přístupové údaje — jen odkaz na server Nutrika (formát pluginu Codexu: `.codex-plugin/plugin.json` a `.mcp.json`)
 (`https://nutriko.cz/api/mcp`). Přihlášení proběhne přímo v Nutriku a oprávnění
 asistenta si zvolíte tam.
 

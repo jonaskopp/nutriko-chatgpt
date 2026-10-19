@@ -1,0 +1,29 @@
+{
+  "name": "nutriko",
+  "version": "1.1.0",
+  "description": "Nutriko pro nutriční terapeuty: klienti, jídelníčky, jídla, suroviny, úkoly a schůzky.",
+  "author": {
+    "name": "Nutriko",
+    "url": "https://nutriko.cz"
+  },
+  "homepage": "https://nutriko.cz",
+  "repository": "https://github.com/jonaskopp/nutriko-chatgpt",
+  "keywords": ["nutriko", "výživa", "jídelníčky", "nutriční terapie"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Nutriko",
+    "shortDescription": "Klienti, jídelníčky a jídla z Nutrika",
+    "longDescription": "Připojí ChatGPT k vašemu účtu v Nutriku. Asistent pak může číst a podle oprávnění, která mu při přihlášení povolíte, i upravovat klienty, jídelníčky, jídla, suroviny, úkoly a schůzky.\nVyzkoušejte třeba:\n- @Nutriko, zavolej whoami.\n- @Nutriko, ukaž mi moje aktivní klienty.",
+    "developerName": "Nutriko",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://nutriko.cz",
+    "defaultPrompt": [
+      "Zavolej v Nutriku whoami.",
+      "Ukaž mi v Nutriku moje aktivní klienty."
+    ],
+    "brandColor": "#93C572",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}
